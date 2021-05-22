@@ -5,7 +5,12 @@ dir({object})
 '''
 import string
 
+import string
+
 print(dir)
 print(dir(int))
 print(dir(string))
 print(dir(float))
+print(dir(list))
+print(dir())
+print(dir(__builtins__))
